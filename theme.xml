@@ -5,7 +5,7 @@
     <script>(function() { var d = document, fr = d.createElement(&#39;script&#39;); fr.type = &#39;text/javascript&#39;; fr.async = true; fr.src = &#39;https://static.fundrazr.com/widgets/loader.js&#39;; var s = d.getElementsByTagName(&#39;script&#39;)[0]; s.parentNode.insertBefore(fr, s);})();</script>
 <script src='https://common.givingway.com/widgets/gw-widget-1.js' type='text/javascript'/>
 
-    <a href='https://www.givingway.com/organization/indu-sah-foundation/?context=apply' style='background-color: #00d8ae; font-weight: 600; color:#fff; text-decoration: none; padding: 8px; padding-right: 14px;padding-left: 14px; border-radius: 5px' target='_blank'>Apply to Volunteer</a>
+    <!-- <a href='https://www.givingway.com/organization/indu-sah-foundation/?context=apply' style='background-color: #00d8ae; font-weight: 600; color:#fff; text-decoration: none; padding: 8px; padding-right: 14px;padding-left: 14px; border-radius: 5px' target='_blank'>Apply to Volunteer</a> -->
 
     <meta content='width=device-width, initial-scale=1' name='viewport'/>
     <title><data:view.title.escaped/></title>
@@ -1242,6 +1242,7 @@ white-space:nowrap
 margin-$startSide:56px
 }
 .sidebar-container{
+  display:none;
 background-color:$(sidebar.backgroundColorBottom);
 max-width:$(sidebar.width);
 overflow-y:auto;
@@ -4483,10 +4484,14 @@ margin-left:40px
                 </b:widget-settings>
                 <b:includable id='main' var='this'>
   <div class='widget-content'>
+    <b:if cond='data:copyright != &quot;&quot;'>
+      <div class='copyright'><data:copyright/></div>
+    </b:if>
+
     <div class='blogger'>
       <a expr:href='data:bloggerUrl' rel='nofollow'>
         <b:include name='flatBloggerIcon'/>
-        <b:message name='messages.poweredByBlogger'/>
+        <b:message name='messages.poweredByBlogger1'/>
       </a>
     </div>
 
@@ -4503,10 +4508,6 @@ margin-left:40px
           </b:message>
         </b:if>
       </div>
-    </b:if>
-
-    <b:if cond='data:copyright != &quot;&quot;'>
-      <div class='copyright'><data:copyright/></div>
     </b:if>
   </div>
 </b:includable>
