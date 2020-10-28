@@ -29,7 +29,7 @@
 
 <!-- Variable definitions -->
 
-<Variable name="keycolor" description="Main Color" type="color" default="#2196f3"  value="#2196f3"/>
+<Variable name="keycolor" description="Main Color" type="color" default="#2196f3"  value="#042846"/>
 <Variable name="startSide" description="Start side in blog language" type="automatic" default="left" hideEditor="true" />
 <Variable name="endSide" description="End side in blog language" type="automatic" default="right" hideEditor="true" />
 
@@ -39,7 +39,7 @@
       default="$(robotoNormal15)"  value="normal normal 15px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
   <Variable name="body.text.color" description="Color"
       type="color"
-      default="#757575"  value="#757575"/>
+      default="#757575"  value="#5c5c5c"/>
 </Group>
 
 <Group description="Backgrounds">
@@ -54,10 +54,10 @@
       default="$(color) none repeat scroll top left"  value="$(color) url(http://2.bp.blogspot.com/-iEKy9PJIWaE/XPUmUKm2X_I/AAAAAAAAK00/1JxG7NFab8Q-NA9mv0YVasEzpXd-QuWmwCK4BGAYYCw/s1600/IMG_5227.jpg) repeat scroll top center"/>
   <Variable name="body.background.color" description="Body background color"
       type="color"
-      default="#eee"  value="#212121"/>
+      default="#eee"  value="#e9e9e9"/>
   <Variable name="posts.background.color" description="Post background color"
       type="color"
-      default="#fff"  value="#f3fdfe"/>
+      default="#fff"  value="#ffffff"/>
   <Variable name="body.background.blur" description="Background blur"
       type="length"
       min="0px"
@@ -68,7 +68,7 @@
 <Group description="Links">
   <Variable name="body.link.color" description="Link color"
       type="color"
-      default="#2196f3"  value="#0000ff"/>
+      default="#2196f3"  value="#0c84e7"/>
   <Variable name="body.link.visited.color" description="Visited link color"
       type="color"
       default="$(body.link.color)"  value="#0000ff"/>
@@ -98,7 +98,7 @@
       default="700 normal $(size) $(family)"  value="normal bold 100% Hanuman"/>
   <Variable name="tabs.color" description="Text color"
       type="color"
-      default="#ccc"  value="#f8fdfe"/>
+      default="#ccc"  value="#c5c5c5"/>
   <Variable name="tabs.selected.color" description="Selected color"
       type="color"
       default="#fff"  value="#ffffff"/>
@@ -116,7 +116,7 @@
 <Group description="Posts" selector="div.widget.Blog">
   <Variable name="posts.title.color" description="Post title color"
       type="color"
-      default="#212121"  value="#2196f3"/>
+      default="#212121"  value="#000000"/>
   <Variable name="posts.title.font" description="Post title font"
       type="font"
       default="$(robotoBold22)"  value="normal bold 36px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
@@ -131,17 +131,17 @@
       default="$(body.text.color)"  value="#757575"/>
   <Variable name="posts.byline.color" description="Post byline color"
       type="color"
-      default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
+      default="rgba(0, 0, 0, 0.54)"  value="rgba(0,0,0,0.537)"/>
   <Variable name="blockquote.font" description="Blockquote font"
       type="font"
       default="$(robotoLightItalic15)"  value="italic 300 15px Roboto, sans-serif"/>
   <Variable name="blockquote.color" description="Blockquote color"
       type="color"
-      default="#444"  value="#212121"/>
+      default="#444"  value="#000000"/>
   <Variable name="posts.icons.color"
       description="Post icons color"
       type="color"
-      default="#707070"  value="#707070"/>
+      default="#707070"  value="#535353"/>
 </Group>
 
 <Group description="Search">
@@ -212,36 +212,36 @@
   <Variable name="sidebar.backgroundColorTop"
       description="Background color (Top)"
       type="color"
-      default="#f7f7f7"  value="#f3fdfe"/>
+      default="#f7f7f7"  value="#f2f2f2"/>
   <Variable name="sidebar.backgroundColorTopHD"
       description="Background color (Top) - HD"
       type="color"
-      default="rgba(255, 255, 255, 1)"  value="#f3fdfe"/>
+      default="rgba(255, 255, 255, 1)"  value="#ffffff"/>
   <Variable name="sidebar.backgroundColorBottom"
       description="Background color (Bottom)"
       type="color"
-      default="#fff"  value="#f3fdfe"/>
+      default="#fff"  value="#ffffff"/>
   <Variable name="sidebar.separator.color"
       description="Separator color"
       type="color"
-      default="#ccc"  value="#cccccc"/>
+      default="#ccc"  value="#c5c5c5"/>
   <Variable name="widget.title.color"
       description="Gadget title color"
       type="color"
-      default="#212121"  value="#212121"/>
+      default="#212121"  value="#000000"/>
   <Variable name="sidebar.icons.color"
       description="Sidebar icons color"
       type="color"
-      default="#707070"  value="#707070"/>
+      default="#707070"  value="#535353"/>
 </Group>
 
 <Group description="Author profile" selector='.widget.Profile'>
   <Variable name="profile.title.color" description="Profile title color"
       type="color"
-      default="rgba(0,0,0,0.52)"  value="#229dff"/>
+      default="rgba(0,0,0,0.52)"  value="rgba(0,0,0,0.518)"/>
   <Variable name="profile.text.color" description="Profile text color"
       type="color"
-      default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
+      default="rgba(0, 0, 0, 0.54)"  value="rgba(0,0,0,0.537)"/>
   <Variable name="profile.link.color" description="Profile link color"
       type="color"
       default="$(posts.title.color)"  value="#212121"/>
@@ -271,7 +271,7 @@
   <Variable name="attribution.icon.color" description="Attribution icon color"
       type="color"
       default="#707070"
-      hideEditor="true"  value="#ffffff"/>
+      hideEditor="true"  value="#535353"/>
 </Group>
 
 <Group description="Widths">
@@ -4477,42 +4477,7 @@ margin-left:40px
                 </b:section>
               </main>
             </div>
-            <b:section class='footer' id='footer' name='Footer' showaddelement='false' tag='footer'>
-              <b:widget id='Attribution1' locked='true' title='' type='Attribution' visible='true'>
-                <b:widget-settings>
-                  <b:widget-setting name='copyright'>Copyright &#169; 2020. Indu Sah Foundation. All Rights Reserved.</b:widget-setting>
-                </b:widget-settings>
-                <b:includable id='main' var='this'>
-  <div class='widget-content'>
-    <b:if cond='data:copyright != &quot;&quot;'>
-      <div class='copyright'><data:copyright/></div>
-    </b:if>
-
-    <div class='blogger'>
-      <a expr:href='data:bloggerUrl' rel='nofollow'>
-        <b:include name='flatBloggerIcon'/>
-        <b:message name='messages.poweredByBlogger1'/>
-      </a>
-    </div>
-
-    <b:if cond='data:imageAuthor'>
-      <div class='image-attribution'>
-        <b:if cond='data:imageAuthor.url'>
-          <b:message name='messages.templateImagesByLink'>
-            <b:param expr:value='data:imageAuthor.url'/>
-            <b:param expr:value='data:imageAuthor.name'/>
-          </b:message>
-        <b:else/>
-          <b:message name='messages.templateImagesBy'>
-            <b:param expr:value='data:imageAuthor.name'/>
-          </b:message>
-        </b:if>
-      </div>
-    </b:if>
-  </div>
-</b:includable>
-              </b:widget>
-            </b:section>
+            <b:section class='footer' id='footer' name='Footer' showaddelement='false' tag='footer'/>
           </div>
         </div>
       </b:with>
@@ -4542,11 +4507,11 @@ margin-left:40px
               <b:widget-setting name='useTemplateDefaultStyles'>true</b:widget-setting>
               <b:widget-setting name='contentSecondaryTextColor'>#000000</b:widget-setting>
               <b:widget-setting name='contentHeadlineColor'>#000000</b:widget-setting>
-              <b:widget-setting name='endcapTextColor'>#757575</b:widget-setting>
-              <b:widget-setting name='contentTextColor'>#757575</b:widget-setting>
+              <b:widget-setting name='endcapTextColor'>#5c5c5c</b:widget-setting>
+              <b:widget-setting name='contentTextColor'>#5c5c5c</b:widget-setting>
               <b:widget-setting name='contentSecondaryLinkColor'>#FFFFFF</b:widget-setting>
-              <b:widget-setting name='endcapLinkColor'>#0000ff</b:widget-setting>
-              <b:widget-setting name='contentLinkColor'>#0000ff</b:widget-setting>
+              <b:widget-setting name='endcapLinkColor'>#0c84e7</b:widget-setting>
+              <b:widget-setting name='contentLinkColor'>#0c84e7</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
   <b:if cond='data:title != &quot;&quot; and data:codeSnippet != &quot;&quot;'>
