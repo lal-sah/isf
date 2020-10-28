@@ -4478,6 +4478,9 @@ margin-left:40px
               </main>
             </div>
             <b:section class='footer' id='footer' name='Footer' showaddelement='false' tag='footer'/>
+              
+            <div><br/></div>
+            <div class='copyright' style="text-align: center;">Copyright &#169; 2020. Indu Sah Foundation. All Rights Reserved.</div>
           </div>
         </div>
       </b:with>
