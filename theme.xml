@@ -2621,7 +2621,8 @@ body.item-view .blog-name{
 margin-left:48px
 }
 .page_body{
-margin-left:$(sidebar.width)
+  margin-left:0px;
+/*margin-left:$(sidebar.width)*/
 }
 .search{
 margin-left:0
@@ -3002,7 +3003,7 @@ margin-left:40px
                       </div>
                     </button>
                     <b:section id='search_top' name='Search (Top)' showaddelement='false'>
-                      <b:widget id='BlogSearch1' locked='true' title='Search This Blog' type='BlogSearch' visible='true'>
+                      <b:widget id='BlogSearch1' locked='true' title='Search This Blog' type='BlogSearch' visible='false'>
                         <b:includable id='main'>
   <b:include name='widget-title'/>
   <b:include name='content'/>
@@ -4480,7 +4481,7 @@ margin-left:40px
             <b:section class='footer' id='footer' name='Footer' showaddelement='false' tag='footer'/>
               
             <div><br/></div>
-            <div class='copyright' style="text-align: center;">Copyright &#169; 2020. Indu Sah Foundation. All Rights Reserved.</div>
+            <div class='copyright' style='text-align: center;'>Copyright &#169; 2020. Indu Sah Foundation. All Rights Reserved.</div>
           </div>
         </div>
       </b:with>
