@@ -3091,7 +3091,7 @@ margin-left:40px
                           <div role='document'>
                             <h3 class='subscribe-title' id='subscribe-title'><b:eval expr='data:messages.subscribeToThisBlog'/></h3>
                             <b:section id='subscription' name='Subscription' showaddelement='false'>
-                              <b:widget id='FollowByEmail1' locked='true' title='Follow Us' type='FollowByEmail' visible='true'>
+                              <b:widget id='FollowByEmail1' locked='true' title='Follow Us' type='FollowByEmail' visible='false'>
                                 <b:includable id='main'>
   <b:include name='widget-title'/>
   <b:include name='content'/>
