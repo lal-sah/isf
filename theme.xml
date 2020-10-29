@@ -80,7 +80,7 @@
 <Group description="Blog title" selector="div.widget.Header">
   <Variable name="blog.title.font" description="Font"
       type="font"
-      default="$(robotoBold45)"  value="normal bold 62px Hanuman"/>
+      default="$(robotoBold45)"  value="normal bold 54px Hanuman"/>
   <Variable name="blog.title.color" description="Color"
       type="color"
       default="#fff"  value="#ffffff"/>
@@ -119,10 +119,10 @@
       default="#212121"  value="#000000"/>
   <Variable name="posts.title.font" description="Post title font"
       type="font"
-      default="$(robotoBold22)"  value="normal bold 36px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
+      default="$(robotoBold22)"  value="normal bold 30px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
   <Variable name="posts.stream.title.font" description="Post title stream font"
       type="font"
-      default="$(robotoBold30)"  value="normal bold 36px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
+      default="$(robotoBold30)"  value="normal bold 30px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
   <Variable name="posts.text.font" description="Post text font"
       type="font"
       default="$(body.text.font)"  value="normal normal 15px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
@@ -1904,7 +1904,7 @@ width:calc(100% - 176px)
 color:$(blog.title.color);
 font:$(blog.title.font);
 line-height:normal;
-margin:0 0 13px 0;
+margin:0 0 0 0;
 text-align:center;
 width:100%
 }
@@ -1925,7 +1925,7 @@ color:$(posts.text.color)
 }
 .Header p{
 color:$(blog.title.color);
-margin:0 0 13px 0;
+margin:0 0 0 0;
 opacity:.8;
 text-align:center
 }
