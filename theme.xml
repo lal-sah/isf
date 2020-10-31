@@ -182,7 +182,7 @@
   <Variable name="popularposts.title.color"
       description="Popular post title color"
       type="color"
-      default="$(posts.title.color)"  value="#212121"/>
+      default="$(posts.title.color)"  value="#3f3f47"/>
   <Variable name="popularposts.text.color"
       description="Popular post text color"
       type="color"
@@ -190,7 +190,7 @@
   <Variable name="popularposts.link.color"
       description="Popular post link color"
       type="color"
-      default="$(body.link.color)"  value="#37afc0"/>
+      default="$(body.link.color)"  value="#535363"/>
 </Group>
 
 <Group description="Post navigation" selector='div.blog-pager'>
