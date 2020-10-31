@@ -57,7 +57,7 @@
       default="#eee"  value="#e9e9e9"/>
   <Variable name="posts.background.color" description="Post background color"
       type="color"
-      default="#fff"  value="#ffffff"/>
+      default="#fff"  value="#cee0f2"/>
   <Variable name="body.background.blur" description="Background blur"
       type="length"
       min="0px"
@@ -80,7 +80,7 @@
 <Group description="Blog title" selector="div.widget.Header">
   <Variable name="blog.title.font" description="Font"
       type="font"
-      default="$(robotoBold45)"  value="normal bold 54px Hanuman"/>
+      default="$(robotoBold45)"  value="normal bold 54px Times New Roman"/>
   <Variable name="blog.title.color" description="Color"
       type="color"
       default="#fff"  value="#ffffff"/>
@@ -95,7 +95,7 @@
       type="font"
       family="$(robotoNormal15.family)"
       size="$(robotoNormal15.size)"
-      default="700 normal $(size) $(family)"  value="normal bold 100% Hanuman"/>
+      default="700 normal $(size) $(family)"  value="normal bold 100% Times New Roman"/>
   <Variable name="tabs.color" description="Text color"
       type="color"
       default="#ccc"  value="#c5c5c5"/>
@@ -116,7 +116,7 @@
 <Group description="Posts" selector="div.widget.Blog">
   <Variable name="posts.title.color" description="Post title color"
       type="color"
-      default="#212121"  value="#000000"/>
+      default="#212121"  value="#4a5c5c"/>
   <Variable name="posts.title.font" description="Post title font"
       type="font"
       default="$(robotoBold22)"  value="normal bold 30px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
@@ -267,7 +267,7 @@
       default="$(body.text.color)"  value="#757575"/>
   <Variable name="attribution.link.color" description="Attribution link color"
       type="color"
-      default="$(body.link.color)"  value="#ffffff"/>
+      default="$(body.link.color)"  value="#2e3375"/>
   <Variable name="attribution.icon.color" description="Attribution icon color"
       type="color"
       default="#707070"
