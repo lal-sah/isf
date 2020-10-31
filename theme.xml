@@ -1745,7 +1745,7 @@ flex:0 0 auto
 margin-top:auto
 }
 .blog-name{
-margin:24px 0 16px 0
+/*margin:24px 0 16px 0*/
 }
 .item-view .blog-name,.sticky .blog-name{
 box-sizing:border-box;
@@ -1766,7 +1766,7 @@ transition-duration:.5s
 margin:0 0 8px 0
 }
 .blog-name .PageList{
-margin-top:16px;
+/*margin-top:16px;*/
 padding-top:8px;
 text-align:center
 }
